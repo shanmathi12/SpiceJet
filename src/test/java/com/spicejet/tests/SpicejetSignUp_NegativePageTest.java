@@ -33,13 +33,13 @@ public class SpicejetSignUp_NegativePageTest extends SeWrappers {
 	@FindBy(xpath="//div[@class='react-datepicker__month-container']")
 	WebElement dateContainer;
 	
-	@FindBy(xpath="//select[@class='react-datepicker__month-select']//option[text()='July']")
+	@FindBy(xpath="//select[@class='react-datepicker__month-select']//option[text()='September']")
 	WebElement month;
 
-	@FindBy(xpath="//select[@class='react-datepicker__year-select']//option[text()='1997']")
+	@FindBy(xpath="//select[@class='react-datepicker__year-select']//option[text()='1999']")
 	WebElement year;
 
-	@FindBy(xpath="//div[text()='7']")
+	@FindBy(xpath="//div[text()='12']")
 	WebElement day;
 	
 	@FindBy(xpath="//input[@class=' form-control']")

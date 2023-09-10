@@ -25,7 +25,7 @@ public class SpicejetInPassesgerDet_NegativePage extends SeWrappers {
 	@FindBy(xpath="//div[@data-testid='login-cta']")
 	WebElement loginButton;
 	
-	@FindBy(xpath="//div[text()='Hi sadhana']")
+	@FindBy(xpath="//div[text()='Hi shanmathi']")
 	WebElement visiblename;
 	
 	

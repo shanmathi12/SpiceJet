@@ -101,10 +101,10 @@ public class SpicejetSignupPage extends SeWrappers{
 		
 		click(email);
 		Thread.sleep(2000);
-		//waitForMe(pwd,30);
+		waitForMe(pwd,30);
 		typeText(pwd, pswd);
 		
-		waitForMe(repwd,20);
+		waitForMe(repwd,20);	
 		typeText(repwd, repass);
 		
 		jsClick(agreeButton);

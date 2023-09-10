@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-10T03:17:27 EDT" name="Default suite" finished-at="2023-09-10T03:20:20 EDT" duration-ms="173206">
+  <suite started-at="2023-09-10T15:09:41 EDT" name="Default suite" finished-at="2023-09-10T15:10:42 EDT" duration-ms="61111">
     <groups>
     </groups>
-    <test started-at="2023-09-10T03:17:27 EDT" name="Default test" finished-at="2023-09-10T03:20:20 EDT" duration-ms="173206">
-      <class name="com.spicejet.tests.SpicejetOneWayTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.spicejet.tests.SpicejetOneWayTest@350aac89]" started-at="2023-09-10T03:17:27 EDT" name="setUp" finished-at="2023-09-10T03:17:27 EDT" duration-ms="27" status="PASS">
+    <test started-at="2023-09-10T15:09:41 EDT" name="Default test" finished-at="2023-09-10T15:10:42 EDT" duration-ms="61111">
+      <class name="com.spicejet.tests.SpicejetSignUpTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.spicejet.tests.SpicejetSignUpTest@53fb3dab]" started-at="2023-09-10T15:09:41 EDT" name="setUp" finished-at="2023-09-10T15:09:41 EDT" duration-ms="32" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.spicejet.tests.SpicejetOneWayTest@350aac89]" started-at="2023-09-10T03:17:27 EDT" name="launchBrowser" finished-at="2023-09-10T03:19:54 EDT" duration-ms="146820" status="PASS">
+        <test-method signature="signUpPage()[pri:0, instance:com.spicejet.tests.SpicejetSignUpTest@53fb3dab]" started-at="2023-09-10T15:09:41 EDT" name="signUpPage" finished-at="2023-09-10T15:10:42 EDT" duration-ms="61030" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="SearchOneWayFlight()[pri:0, instance:com.spicejet.tests.SpicejetOneWayTest@350aac89]" started-at="2023-09-10T03:19:54 EDT" name="SearchOneWayFlight" finished-at="2023-09-10T03:20:17 EDT" duration-ms="22966" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SearchOneWayFlight -->
-        <test-method is-config="true" signature="closeBrowsers()[pri:0, instance:com.spicejet.tests.SpicejetOneWayTest@350aac89]" started-at="2023-09-10T03:20:17 EDT" name="closeBrowsers" finished-at="2023-09-10T03:20:20 EDT" duration-ms="3338" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowsers -->
-      </class> <!-- com.spicejet.tests.SpicejetOneWayTest -->
+        </test-method> <!-- signUpPage -->
+      </class> <!-- com.spicejet.tests.SpicejetSignUpTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
