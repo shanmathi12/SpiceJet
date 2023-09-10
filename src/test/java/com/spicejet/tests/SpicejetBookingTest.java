@@ -22,13 +22,13 @@ public class SpicejetBookingTest extends SeWrappers{
 			
 			Reports.setTCDesc("Validating Booking Flight functionality ");
 			sw.launchBrowser();
-			sw.loginSpicejet("9688741481", "Sadhumaa@123");
+			sw.loginSpicejet("9025128059", "Shan@123");
 			sw.oneWayFlight(20);
-			sw.bookingFlights("Sadhana", "Logesh", "9688741481", "sadhu.lokii1924@gmail.com", "Bangalore","Logesh","mani","8870140494","suba","natraj","9750645623");
-			//sw.dummyPayment("2222 4053 4324 8877","sadhana", "08", "28", "123");
+			sw.bookingFlights("Shanmathi", "Saravanan", "9025128059", "shansarav12@gmail.com", "Bangalore","saro","saran","8903352653","sindhu","rohi","9994204226");
+			//sw.dummyPayment("2222 4053 4324 8877","shanmathi", "08", "28", "123");
 			Reports.reportStep("PASS", "Search with valid credentials passed");
 			Thread.sleep(2000);
-			screenshot("FlightBooking");
+			screenshot("Flight Booking");
 		}
 		catch(Exception ex)
 		{

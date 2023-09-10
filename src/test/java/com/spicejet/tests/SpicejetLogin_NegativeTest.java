@@ -20,11 +20,11 @@ public class SpicejetLogin_NegativeTest extends SeWrappers
 			{
 				Reports.setTCDesc("Validating login functionality with invalid credentials");
 				sw.launchBrowser();
-				sw.login_invalidCredentials("9689523565", "Sadhumaa@123456");
+				sw.login_invalidCredentials("9025128059", "Shan@123456");
 				screenshot("login_invalid");
 				
 				Reports.setTCDesc("Validating login with empty Field Password");
-				sw.login_emptyFieldPassword("9688741481", "");
+				sw.login_emptyFieldPassword("9025128059", "");
 				screenshot("login_emptyFieldPwd");
 			}
 			catch(Exception ex)

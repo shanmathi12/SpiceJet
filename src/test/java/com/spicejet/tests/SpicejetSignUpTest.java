@@ -18,10 +18,10 @@ public class SpicejetSignUpTest extends SeWrappers {
 		{
 			Reports.setTCDesc("Validating SignUp functionality with valid credentials");
 			sw.launchBrowser();
-			sw.signupSpicejet("Shanmathi", "Saravanan", "India", "99025128059","sadhu.lokii1924@gmail.com","Sadhumaa@123","Sadhumaa@123");
-		//	Reports.reportStep("PASS", "SignUp with valid credentials passed");
+			sw.signupSpicejet("Shanmathi", "Saravanan", "India", "9025128059","shansarav12@gmail.com", "Shan@123", "Shan@123");
+		Reports.reportStep("PASS", "SignUp with valid credentials passed");
 
-			//screenshot("signup_valid");
+			screenshot("Signup Valid");
 		}
 		catch(Exception ex)
 		{

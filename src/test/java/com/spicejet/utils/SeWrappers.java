@@ -24,6 +24,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.openqa.selenium.JavascriptExecutor;
@@ -39,7 +40,7 @@ public class SeWrappers {
 
 	@BeforeClass
 	@Parameters("browser")
-	public void setUp(String browser)
+	public void setUp(@Optional("chrome") String browser)
 	{
 
 		this.browsername = browser;

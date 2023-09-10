@@ -1,97 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-09T02:07:06 EDT" name="Default suite" finished-at="2023-09-09T02:07:07 EDT" duration-ms="216">
+  <suite started-at="2023-09-10T03:17:27 EDT" name="Default suite" finished-at="2023-09-10T03:20:20 EDT" duration-ms="173206">
     <groups>
     </groups>
-    <test started-at="2023-09-09T02:07:06 EDT" name="Default test" finished-at="2023-09-09T02:07:07 EDT" duration-ms="216">
-      <class name="com.spicejet.tests.SpicejetLoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.spicejet.tests.SpicejetLoginTest@a53bb6f]" started-at="2023-09-09T02:07:06 EDT" name="setUp" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1694239626922" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
-in C:\Users\Administrator\AppData\Local\Temp\testng-eclipse--1523922869\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
-in C:\Users\Administrator\AppData\Local\Temp\testng-eclipse--1523922869\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+    <test started-at="2023-09-10T03:17:27 EDT" name="Default test" finished-at="2023-09-10T03:20:20 EDT" duration-ms="173206">
+      <class name="com.spicejet.tests.SpicejetOneWayTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.spicejet.tests.SpicejetOneWayTest@350aac89]" started-at="2023-09-10T03:17:27 EDT" name="setUp" finished-at="2023-09-10T03:17:27 EDT" duration-ms="27" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginSpiceJet()[pri:0, instance:com.spicejet.tests.SpicejetLoginTest@a53bb6f]" started-at="2023-09-09T02:07:07 EDT" name="loginSpiceJet" finished-at="2023-09-09T02:07:07 EDT" duration-ms="0" status="SKIP">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
-in C:\Users\Administrator\AppData\Local\Temp\testng-eclipse--1523922869\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
-in C:\Users\Administrator\AppData\Local\Temp\testng-eclipse--1523922869\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.spicejet.tests.SpicejetOneWayTest@350aac89]" started-at="2023-09-10T03:17:27 EDT" name="launchBrowser" finished-at="2023-09-10T03:19:54 EDT" duration-ms="146820" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginSpiceJet -->
-        <test-method is-config="true" signature="closeBrowsers()[pri:0, instance:com.spicejet.tests.SpicejetLoginTest@a53bb6f]" started-at="2023-09-09T02:07:07 EDT" name="closeBrowsers" finished-at="2023-09-09T02:07:07 EDT" duration-ms="0" status="SKIP">
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="SearchOneWayFlight()[pri:0, instance:com.spicejet.tests.SpicejetOneWayTest@350aac89]" started-at="2023-09-10T03:19:54 EDT" name="SearchOneWayFlight" finished-at="2023-09-10T03:20:17 EDT" duration-ms="22966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchOneWayFlight -->
+        <test-method is-config="true" signature="closeBrowsers()[pri:0, instance:com.spicejet.tests.SpicejetOneWayTest@350aac89]" started-at="2023-09-10T03:20:17 EDT" name="closeBrowsers" finished-at="2023-09-10T03:20:20 EDT" duration-ms="3338" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowsers -->
-      </class> <!-- com.spicejet.tests.SpicejetLoginTest -->
+      </class> <!-- com.spicejet.tests.SpicejetOneWayTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

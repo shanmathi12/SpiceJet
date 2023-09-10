@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.spicejet.tests.SpicejetLoginTest">
+      <class name="com.spicejet.tests.SpicejetBookingFieldTest">
         <methods>
-          <include name="loginSpiceJet"/>
           <include name="closeBrowsers"/>
+          <include name="validateBookingField"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.spicejet.tests.SpicejetLoginTest -->
+      </class> <!-- com.spicejet.tests.SpicejetBookingFieldTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

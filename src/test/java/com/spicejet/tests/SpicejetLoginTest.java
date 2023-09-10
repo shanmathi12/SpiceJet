@@ -19,12 +19,12 @@ public class SpicejetLoginTest extends SeWrappers
 	{
 		Reports.setTCDesc("Validating login functionality with valid credentials");
 		sw.launchBrowser();
-		sw.loginSpicejet("9688741481", "Sadhumaa@123");
+		sw.loginSpicejet("9025128059", "Shan@123");
 		Reports.setTCDesc("Searching OneWayFlight with valid credentials");
 		sw.oneWayFlight(10);
 	    Reports.reportStep("PASS", "Login with valid credentials passed");
 		
-		screenshot("loginOneWay_valid");
+		screenshot("loginOneWay valid");
 	}
 	catch(Exception ex)
 	{

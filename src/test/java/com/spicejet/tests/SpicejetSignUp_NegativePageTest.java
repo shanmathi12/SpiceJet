@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import com.spicejet.utils.Reports;
 import com.spicejet.utils.SeWrappers;
 
-public class SpicejetSignUp_NegativePage extends SeWrappers {
+public class SpicejetSignUp_NegativePageTest extends SeWrappers {
 	
 	@FindBy(xpath="//div[contains(text(),'Signup')]")
 	WebElement clickSignup;

@@ -18,7 +18,7 @@ public class SpicejetOneWayTest extends SeWrappers{
 	public void launchBrowser()
 	{
 		sw.launchBrowser();
-		sw.loginSpicejet("9688741481", "Sadhumaa@123");
+		sw.loginSpicejet("9025128059", "Shan@123");
 	}
 	@Test
 	
@@ -31,7 +31,7 @@ public class SpicejetOneWayTest extends SeWrappers{
 			sw.oneWayFlight(20);
 			Reports.reportStep("PASS", "Search with valid credentials passed");
 			Thread.sleep(2000);
-			screenshot("OneWay_valid");
+			screenshot("OneWay Fight");
 		}
 		catch(Exception ex)
 		{

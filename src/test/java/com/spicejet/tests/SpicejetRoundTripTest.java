@@ -23,11 +23,11 @@ public class SpicejetRoundTripTest  extends SeWrappers{
 			
 			Reports.setTCDesc("Validating Search RoundTripFlight functionality ");
 			sw.launchBrowser();
-			sw.loginSpicejet("9688741481", "Sadhumaa@123");
+			sw.loginSpicejet("9025128059", "Shan@123");
 			sw.RoundTripFlight(20,10);
 			Reports.reportStep("PASS", "Search RoundTripFlight passed");
 			Thread.sleep(2000);
-		   screenshot("RoundTrip");
+		   screenshot("Round Trip");
 		}
 		catch(Exception ex)
 		{

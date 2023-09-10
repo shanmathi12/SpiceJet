@@ -21,11 +21,11 @@ public class SpicejetInvalidPassengerDet_Negativetest extends SeWrappers
 		{
 			Reports.setTCDesc("Booking Flight with invalid Passenger Details");
 			sw.launchBrowser();
-			sw.invalid_passengerDetails("9688741481", "Sadhumaa@123");
+			sw.invalid_passengerDetails("9025128059", "Shan@123");
 			sw.oneWayFlight(20);
-			sw.bookingFlights("Sadhana", "Logesh", "9688741481", "sadhu.lokii1924@gmail.com", "Bangalore","Lo","mani","887014494","sub","natraj","975064623");
+			sw.bookingFlights("Shanmathi", "Saravanan", "9025128059", "shansarav12@gmail.com", "Bangalore","saro","saran","8903352653","sindhu","rohi","9994204226");
 			Reports.reportStep("PASS", "InFormation is missing, Please Enter a Valid Passenger details");
-			//screenshot("login_invalid");
+			screenshot("Invalid Login");
 
 
 		}

@@ -21,7 +21,7 @@ public class SpicejetBookingFieldTest extends SeWrappers{
 		{
 			Reports.setTCDesc("Validating BookingFields functionality ");
 			sw.launchBrowser();
-			sw.loginSpicejet("9688741481", "Sadhumaa@123");
+			sw.loginSpicejet("9025128059", "Shan@123");
 			sw.validateBookingField();
 			screenshot("BookingField");
 		
